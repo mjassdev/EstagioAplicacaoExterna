@@ -6,9 +6,7 @@
 \chapter{Referencial Teórico}\label{referencial_teorico}
 
 
-\section{O que é DevOps?}
-
-O DevOps é o nivelamento entre as equipes de desenvolvimento e operações no que tange suas interações, mantendo suas funções específicas porém alinhando suas demandas referentes às responsabilidades e processos, visando a disponibilização de um produto ou funcionalidade de forma rápida e confiável.
+O conceito de DevOps pode ser entendido como o nivelamento entre as equipes de desenvolvimento e operações no que tange suas interações, mantendo suas funções específicas, porém alinhando suas demandas referentes às responsabilidades e processos, visando a disponibilização de um produto ou funcionalidade de forma rápida e confiável.
 
 \begin{figure}[htb] %Figura: Ciclo de vida DevOps
 	\centering
@@ -18,26 +16,31 @@ O DevOps é o nivelamento entre as equipes de desenvolvimento e operações no q
 	\label{fig:figura1}
 \end{figure}
 
-As implementações nesse tipo de ambiente fazem uso de ferramentas de automação com o intuito de dinamizar cada vez mais a infraestrutura e torná-la mais programável.
+As implementações nesse tipo de ambiente fazem uso de ferramentas de automação com o intuito de dinamizar cada vez mais a infraestrutura e torná-la mais programável, de forma que reflita na melhoria contínua da comunicação e integração entre desenvolvedores e administradores de infra, transformando o cenário tradicional de isolamento entre essas duas equipes em um ambiente participativo e colaborativo.
 
-Um dos objetivos mais evidentes do DevOps é a melhoria contínua da comunicação e integração entre desenvolvedores e administradores de infra, transformando o cenário tradicional de isolamento entre essas duas equipes em um ambiente participativo e colaborativo.
+			\begin{flushright}
+				\begin{minipage}{0.75\textwidth}
+					\normalsize "Seu objetivo é criar uma cultura de colaboração entre as equipes de desenvolvimento e de operações que permite aumentar o fluxo de trabalho completado $($maior frequência de deploys$)$ ao mesmo tempo aumentando a estabilidade e robustez do ambiente de produção." (SATO, 2016).
+				\end{minipage}
+			\end{flushright}
 
-Seu objetivo é criar uma cultura de colaboração entre as equipes de desenvolvimento e de operações que permite aumentar o fluxo de trabalho completado - maior frequência de deploys - ao mesmo tempo aumentando a estabilidade e robustez do ambiente de produção.(SATO, 2016).
 
 O DevOps representa muito mais do que simplesmente o uso de ferramentas de automação, é importante observarmos que trata-se de uma quebra de paradigmas e uma mudança na cultura no negócio, uma nova forma de entrega e produção.
 
-Mais do que uma modernização tecnológica, por meio das mais diversas áreas de inovação, é uma oportunidade de evoluir a cultura e os processos da organização. (COSTA, 2017).
-
-\section{Quando é usado?}
+			\begin{flushright}
+				\begin{minipage}{0.75\textwidth}
+					\normalsize "Mais do que uma modernização tecnológica, por meio das mais diversas áreas de inovação, é uma oportunidade de evoluir a cultura e os processos da organização." (COSTA, 2017).
+				\end{minipage}
+			\end{flushright}
 
 A agilidade no processo de deploys citado anteriormente aluz à uma necessidade de amparo para que essa entrega rápida de fato aconteça, e mais do que isso, a demanda por parte dos clientes ou usuários de determinada aplicação, requer cada vez mais velocidade no uso de determinada funcionalidade. Analogamente à revolução industrial do século XX, a mudança na forma de produção de produtos naturalmente está sendo absorvida pela tecnologia, assim, a concepção desse produto deve acompanhar a demanda externa. Nesse sentido, a adaptabilidade e mudança da arquitetura funcional no desenvolvimento de serviços tecnológicos são necessidades relevantes, a cultura DevOps é uma mudança importante nesse ponto.
 
-Segundo uma pesquisa realizada pelo Gartner Group sobre DevOps, em 2015, somente 29\% das organizações pesquisadas tem o modelo atuante em produção. É apresentado ainda que apenas 42\% desses, tem a atuação do DevOps em aplicações móveis.
+Segundo uma pesquisa realizada pelo Gartner Group sobre DevOps, em 2015, somente 29\% das organizações pesquisadas tem o modelo atuante em produção. É evidenciado ainda que apenas 42\% desses, tem a atuação do DevOps em aplicações móveis.
 %Fonte: https://www.itforum365.com.br/tecnologia/como-devops-pode-ser-usado-para-desenvolvimento-de-aplicacoes-moveis/
 
 De acordo com o mesmo grupo o DevOps evoluiria de uma estratégia de nicho para uma estratégia comum sendo empregada por 25\% das organizações do Global 2000\footnote{Forbes Global 2000 é uma classificação anual das 2.000 empresas públicas do mundo pela revista Forbes. O ranking é baseado em quatro critérios: vendas, lucro, ativos e valor de mercado. A lista é publicada desde 2003. Fonte: Wikipédia}.
 
-O uso da cultura DevOps deve ser absorvida na necessidade de versionamento contínuo de determinada aplicação, ou seja, a frequente execução de deploys. Nisso, é importante observarmos que a rápida proliferação de software requer atualizações atuando na mesma medida ágil e a demanda pela competitividade de mercado, visto que a velocidade no atendimento da expectativa dos clientes diferencia a empresa em relação às demais no mercado.
+O uso da cultura DevOps deve ser absorvida na necessidade de versionamento contínuo de determinada aplicação, ou seja, a frequente execução de deploys. Nisso, é importante observarmos que a rápida proliferação de software requer atualizações operando na mesma medida ágil e demanda pela competitividade de mercado, visto que a velocidade no atendimento da expectativa dos clientes diferencia a empresa em relação às demais atuantes no mercado.
 
 
 % ############# PESQUISAR E ACRESCENTAR (Ver com o professor)  #######################
@@ -46,24 +49,21 @@ O uso da cultura DevOps deve ser absorvida na necessidade de versionamento cont�
 %- Pesquisar sobre práticas ágeis que facilitem o gerenciamento.
 % ####################################################################################
 
-\section{Qual o ganho em utilizá-lo?}
 A principal vantagem no uso de DevOps é a melhora evidente nos processos e automatização das tarefas, otimizando o tempo e reduzindo os ciclos de desenvolvimento. Por se tratar de uma interação entre as equipes de desenvolvedores e operacionais, dizemos que é um sistema bimodal de trabalho.
 
-O monitoramento de métricas e registro de logs é um aspecto relevante, leva-se em conta que os serviços devem estar disponíveis 24 horas por dias e durante os 07 dias da semana, acarretando numa análise de dados e logs gerados pelo sistema em um nível massivo, portanto, a rotina na observância desses elementos deve ser constante. É possível, inclusive, a criação de alertas que apontem situações e permitam a gerência proativa dos serviços.
+O monitoramento de métricas e registro de logs é um aspecto relevante. Leva-se em conta que os serviços devem estar disponíveis 24 horas por dias e durante os 7 dias da semana, acarretando em uma massiva análise de dados e logs gerados pelo sistema, portanto, a rotina na observância desses elementos deve ser constante. É possível, inclusive, a criação de alertas que apontem situações e permitam a gerência proativa dos serviços.
 
 Outro benefício fundamental do DevOps é o aumento na comunicação e colaboração que envolve todos os personagens da empresa. É importantíssimo a definição de normas que permitam um maior compartilhamento de informações, ou que permitam a proliferação da comunicação sejam por meio de qualquer que for o método ou tecnologia, desde que agregue valor. Além disso, a diminuição de ruídos na comunicação e conflitos entre as equipes melhora o ambiente e tende a produzir efeitos positivos ao fim do processo.
 
 Podemos ainda elencar ganhos em maior estabilidade e melhor desempenho, e tão importante quanto, a redução considerável de custos de trabalho, visto que a diminuição de tempo de produção e menor esforço afeta diretamente o custo estimado em um projeto.
 
 
-
-\section{Microserviços}
-
-Nesse ambiente, um grande sistema pode ser desmembrado em vários sistemas que atuem de forma mais simples e independentes. Dessa forma, é possível gerir melhor as equipes responsáveis e dar mais agilidade ao processo de desenvolvimento.
-
-Esse desacoplamento gera inevitavelmente um número maior de deploys acontecendo simultaneamente. Dessa forma, o DevOps associado a esse cenário potencializa o desempenho de produção e gerência, aplicando a integração e entregas contínuas.
-
 \section{Infraestrutura como Código}
+Falar em infraestrutura com código é exatamente absorver o entendimento do tratar a estrutura de TI como um software, programável. Como isso é possível o uso de práticas que envolvam o controle por versionamento, testes automatizados, entrega contínua, entre diversos outros recursos.
+
+O uso de práticas anteriores com métodos de gerenciamento de infraestutura forma válidos e deram uma base poderosa para a concepção de novas tecnologias. Atualmente, a constante demanda de software cada vez mais dinâmicos e alto índice de deploys, inclusive simultâneos, levam à necessidade de concepção de uma infraestrutura que acompanhe o ritmo de complexidade dos sistemas de aplicação.
+
+
 
 \section{Principais Ferramentas e Recursos Tecnológicos Disponíveis}
 Apesar do conceito DevOps ser recente, a gama de ferramentas que contribuem para implantação dessa cultura já se mostram bastante diversificadas. Dentre as mais comuns podemos apresentar:
@@ -99,21 +99,39 @@ O Chef pode ser executado em várias plataformas, como Windows, distribuições 
 
 O Docker\footnote{Disponível em https://www.docker.com/}. é uma plataforma de automação que implanta as aplicações em espaços isolados chamados de \textit{containers}, possibilitando as executarem as aplicações de forma mais ágil. O objetvo é criar múltiplos ambientes dentro de um mesmo servidor, acessíveis externamente.
 
+Segundo Matthias e Kane, no livro Primeiros Passos com Docker: 
+%Colocar o parágrafo abaixo como citação
+
+			\begin{flushright}
+				\begin{minipage}{0.75\textwidth}
+					\normalsize "... o Docker influencia a arquitetura do software no sentido de encorajar aplicações trabalhadas de modo mais robusto. Sua filosofia de arquitetura gira em torno de contêineres atômicos ou descartáveis. Durante a implantação, todo ambiente sobre o qual a aplicação antiga roda é jogado fora com ela. Nada no ambiente da aplicação viverá mais do que a aplicação em si; essa é uma pequena ideia com grandes repercussões." (MATTHIAS e KANE, 2015)
+				\end{minipage}
+			\end{flushright}
+
 O Docker é uma plataforma Open Source, que não pode ser confundido com um ambiente tradicional de virtualização. No Docker fazemos uso de recurso isolados que utilizam bibliotecas do kernel em comum, isso porque é presente nessa ferramenta o Linux Containers (LXC).
 
 Com ele é possível empacotar a aplicação ou um ambiente em um contêiner e movê-lo para qualquer outro host que possua o Docker instalado, tornando assim uma ferramenta portável. A grande vantagem disso é que não há necessidade de reconfigurar todo o ambiente novamente, visto que todo ele é movido, reduzindo acentuadamente o tempo de deploy de uma infraestrutura.
 
 Essa plataforma não pode ser confundida com um ambiente virtualizado, visto que em cenários que utilizam máquinas virtuais há a presença de uma camada intermediária de sistema operacional entre o host e as aplicações, no Docker essa é desnecessária pois ele não utiliza kernel, tornando independente quanto a nível de disco, memória e processamento.
 
-\begin{figure} [htb]
-\centering
-\includegraphics[width=0.7\linewidth]{imagens/dockerXvm}
-\caption{Comparativo Docker x Máquinas Virtuais}
-\label{fig:dockerXvm}
-\end{figure}
-
-
 A infraestrutura no Docker também é replicável, é possível criar imagens predefinidas e disponibilizá-las em ambientes de desenvolvimento, teste, homologação e produção para aplicações.
+
+
+\subsubsection{Vantagens:}
+Podemos elencar alguns ganhos consideráveis na utilização do Docker:
+\begin{itemize}
+\item Empacotamento de software otimizando o uso das habilidades dos desenvolvedores;
+\item Empacotamento de aplicação de software com todos os arquivos e dependências necessárias para determinada aplicação.
+\item Utilização de artefatos empacotados que possibilitem a passagem pelo teste e produção sem necessidade de recompilação.
+\item Uso de softwares sem onerar recursos demasiados, visto que o contêiner é apenas um processo que se comunica diretamente com kernel do Linux.
+\end{itemize}
+
+\begin{figure} [htb]
+	\centering
+	\includegraphics[width=0.55\linewidth]{imagens/dockerXvm}
+	\caption{Comparativo Docker x Máquinas Virtuais}
+	\label{fig:dockerXvm}
+\end{figure}
 
 \subsection{Puppet}
 É uma ferramenta de código livre para gestão de configurações. A ideia central do Puppet\footnote{Disponível em https://www.puppet.com/} é a administração de diversas máquinas físicas ou virtuais, onde a configuração é centralizada em um único nó e então distribuídas por diversos nós na rede, assim, gerenciando configurações, automatizando instalação de pacotes e facilitando o estabelecimento de normas e auditoria.
@@ -135,10 +153,18 @@ O Puppet utiliza SSH para a conexão aos hosts, esse é um ponto positivo se olh
 
 \subsection{Ansible}
 
-O Ansible\footnote{Disponível em https://www.ansible.com} oferece duas versões, o Ansible Core, que é a versão gratuita e de código aberto, e o Ansible Tower, versão comercial.
+O Ansible\footnote{Disponível em https://www.ansible.com} foi criado em 2012, por Michael DeHann, basicamente essa ferramenta gerencia configurações e orquestra tarefas. 
 
-O Ansible orquestra os nós implementando módulos para nós sobre SSH. Os módulos são distribuídos nos nós temporariamente que realizam a comunicação com a máquina de controle (assim com em ferramentas concorrentes) por meio de um protocolo JSON.
+Nesse sentido ele implementa módulos para nós sobre SSH. Os módulos são distribuídos nos nós temporariamente que realizam a comunicação com a máquina de controle (assim com em ferramentas concorrentes) por meio de um protocolo JSON.
 O diferencial do Ansible em relação as demais ferramentas que se propõe ao mesmo objetivo, é que ele atua com uma arquitetura cliente-servidor, sem agente,  isso que dizer que os nós não são necessários para a instalação dos daemons para comunicação com a máquina controle. Isso resulta em diminuição de carga na rede. 
+
+			\begin{flushright}
+				\begin{minipage}{0.75\textwidth}
+					\normalsize "Os principais objetivos do Ansible são a simplicidade e facilidade de uso. Ele também tem um forte foco na segurança e confiabilidade, com um mínimo de peças móveis, o uso do OpenSSH para o transporte (com um modo acelerado e modos alternativos) é uma linguagem projetada em torno auditabilidade por seres humanos, mesmo para aqueles que não são familiarizados com o programa." (ANSIBLE, Inc. 2016). 
+				\end{minipage}
+			\end{flushright}
+
+O Ansible oferece duas versões, o Ansible Core, que é a versão gratuita e de código aberto, e o Ansible Tower, versão comercial.
 
 Nessa ferramenta ainda encontramos o uso de um arquivo de inventário, denominado "hosts", que definem quais nós serão gerenciados, que é simplesmente um arquivo de texto que lista os nós individualmente ou agrupados ou até um arquivo executável que constrói um inventário de hosts.
 
@@ -146,6 +172,24 @@ Na forma tradicional de trabalho o Ansible faz o upload do código que deve ser 
 
 Quando usamos a ótica DevOps esse tipo de fluxo é modificado, fazendo uso do protocolo NETCONF $($RFC 6241$)$, onde é possivel o envio de comandos aos componentes e receber o retorno da aplicação.
 
+\subsubsection{Componentes:}
+O Ansible é estruturado pela composição dos seguintes elementos:
+
+\begin{itemize}
+	\item Playbooks\footnote{Disponível em https://docs.ansible.com/ansible/playbooks.html}: arquivos de configuração, implementação e linguagem de orquestração do Ansible.
+	\item Agentless\footnote{Disponível em https://dbruno.ansible.com/ansible/}: É descartado o uso de agente nos servidores a serem monitorados. Isso deve-se à utilização de OpenSSH para definir o estado atual do ambiente, adaptando-se se acaso estiver em desconformidade com a configuração no playbook.
+	\item Módulos\footnote{Disponível em https://docs.ansible.com/ansible/modules.html}: São as tarefas executadas de fato. Os módulos são ditos como "plugins de tarefas" e por isso são eles que realizam as atividades pertinentes.
+	\item Inventário\footnote{Disponível em https://dbruno.ansible.com/ansible/}: Armazena e controla informações sobre os grupos de hosts.
+\end{itemize}
+
+\subsubsection{Vantagens:}
+Podemos apontar alguns ganhos consideráveis na utilização do Ansible:
+\begin{itemize}
+	\item Não há a necessidade na instalação de agentes nos servidores a serem gerenciados;
+	\item Gerencia paralela e simultaneamente de forma orquestrada; 
+	\item Simples configuração e bem estruturado;
+	\item Desenvolvimento em diversas linguagens.
+\end{itemize}
 
 \subsection{GITHUB}
 É um dos serviços web mais difundidos. Com essa ferramenta é possível hospedar projetos e aplicações, trabalhando com controle de versionamento.
